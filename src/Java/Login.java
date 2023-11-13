@@ -14,7 +14,7 @@ public class Login {
 	  WebDriver d= new ChromeDriver();  
       
       d.get("https://www.makemytrip.com/");  //URL
-      
+      d.close();
     
 }
 	
